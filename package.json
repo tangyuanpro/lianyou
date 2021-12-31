@@ -23,4 +23,20 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3"
   }
+},
+{
+  "name": "lianyou",
+  "yuqueConfig": {
+    "postPath": "source/_posts/yuque",
+    "cachePath": "yuque.json",
+    "mdNameFormat": "title",
+    "adapter": "hexo",
+    "concurrency": 5,
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "yexiyingla",
+    "repo": "lianyou",
+    "onlyPublished": false,
+    "onlyPublic": false,
+    "lastGeneratePath": "lastGeneratePath.log"
+  }
 }
