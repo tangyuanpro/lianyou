@@ -27,7 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: 部署
-        run: cd /home/github-action/lianyou-hexo
+        run: |
+             cd /home/github-action/lianyou-hexo
              export PATH=/www/server/nodejs/v16.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
              git pull origin master
              hexo clean
