@@ -32,9 +32,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: 开始部署
         run: |
-          git pull origin master,
-          hexo clean,
-          hexo g.
+          git pull origin master
+          hexo clean
+          hexo g
 
       # Runs a set of commands using the runners shell
       - name: 复制文件至网站目录
