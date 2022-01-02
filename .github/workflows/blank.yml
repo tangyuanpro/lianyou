@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: 进入文件夹
-        run: cd /root/lianyou-hexo
+        run: cd lianyou-hexo
 
       # Runs a set of commands using the runners shell
       - name: 开始部署
